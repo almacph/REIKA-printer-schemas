@@ -6,5 +6,6 @@ export const printerStatusSchema = z.object({
 })
 
 export const printerTestLineSchema = z.object({
-    testPrint: z.string()
+    testLine: z.string(),
+    testPage: z.boolean()
 })
